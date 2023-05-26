@@ -1,6 +1,6 @@
 /*
--Averiguar como puedo agregar una variedad de preguntas mayor y que se seleccionen aleatoriamente 10 de ellas?
--Comentarios dependiendo de puntiaciono
+-Averiguar como puedo agregar una variedad de preguntas mayor y que se seleccionen aleatoriamente 10 de ellas
+-Comentarios dependiendo de puntuacion
 */
 
 let Facil= 50;
@@ -123,7 +123,7 @@ if (pregunta10 == 3){
 
 console.log ('Respondiste correctamente : ' + puntuacion  + "/10" )
 
-/////////////////// Puntuacion
+/////////////////// Puntos
 
 const Nota = [P1,P2,P3,P4,P5,P6,P7,P8,P9,P10];
 
@@ -132,5 +132,5 @@ Nota.forEach((elem) => {
     NotaFinal = NotaFinal + elem;
 });
 
-console.log('Tu puntuacion es de :' + NotaFinal );
+console.log('Anotaste un total de: ' + NotaFinal + " puntos" );
 
